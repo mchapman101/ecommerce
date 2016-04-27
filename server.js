@@ -8,6 +8,7 @@ mongoose.connect('mongodb://localhost/products');
 var Product = require('./schema.js');
 
 var app = express();
+
 var corsOptions = {
   origin: 'http://localhost:4000',
 };
